@@ -39,7 +39,7 @@ public abstract class LogFilter {
             return true;
 
         for (String command : PROTECTED_COMMANDS) {
-            if (message.contains(command)) return false;
+            if (message.contains(command)) return true;
         }
 
         return true;
