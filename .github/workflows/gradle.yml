@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: LibreLogin  # Name of the artifact
-          path: build/libs/*.jar  # Path to the JAR file(s) produced by Gradle 
+          path: Plugin/build/libs/*.jar  # Path to the JAR file(s) produced by Gradle 
